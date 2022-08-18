@@ -1,0 +1,192 @@
+body {
+    background: #e7eef7;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 31.09px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    gap: 40px;
+}
+
+.btn-Encriptar {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    height: 48px;
+    width: 548px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+.elementos-1 {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+#textoEncriptado {
+    width: 400px;
+    left: 240px;
+    height: 48px;
+    color: #0A3871;
+    border-radius: 25px;
+    border-color: #0A3871;  
+}
+
+#boton-Encriptar {
+    width: 200px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px 0;
+    transition: 1s all;
+    position: relative;
+    top: 65px;
+}
+
+#boton-Desencriptar:hover {
+    background: #0A3871;
+    transform: scale(1.1);
+    color: white;
+    border-color: rgb(0, 0, 0);
+}
+
+#boton-Desencriptar {
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 200px;
+    height: 67px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px 0;
+    color: #0A3871;
+    position: relative;
+    top: 65px;
+}
+
+#texto {
+    width: 500px;
+    display: inline-block;
+    margin: 150px 15px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    position: relative;
+    top: 55px;
+}
+
+#vector {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 18px;
+    right: 0%;
+    top: 310px;
+    bottom: 0%;
+}
+
+.btn-des {
+    position: absolute;
+    top: 180px;
+    left: 650px;
+    height: 60px;
+    width: 108px;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+#areatxt {
+    /*border: groove 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 90px;    */
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 70px;
+    left: 650px;
+    border-color: white;
+    color: #495057;
+    font-size: 20px;
+    resize: none;
+    background-color: white;
+}
+
+#boton-Copiar {
+    position: absolute;
+    top: 350px;
+    background-color: white;
+    color:  #0A3871;
+    border-color: #0A3871;
+    width: 200px;
+    height: 67px;
+    left: 44px;
+    border-radius: 24px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px 0;
+    transition: 1s all;
+}
+
+#recta{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 40px;
+    left: 600px;
+}
+
+#muñeco{
+    position: absolute;
+    width: 280px;
+    height: 290px;
+    top: 65px;
+    left: 670px;
+}
+
+.areas{
+    position: absolute;
+    left: 650px;
+    top: 380px;
+}
+
+#area1{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    border-color: white;
+    font-style: normal;
+    resize: none;
+    background-color: white;
+}
+
+#area2{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border-color: white;
+    font-style: normal;
+    background-color: white;
+    line-height: 120%;
+    color: #494057;
+    resize: none;
+}
